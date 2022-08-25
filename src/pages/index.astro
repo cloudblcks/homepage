@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+	<div
+		class="absolute inset-0 bg-slate-900 font-mono backdrop-blur-lg text-sky-50 text-center flex h-screen"
+	>
+		<div class="m-auto">
+			<div class="text-4xl">Cloudblocks</div>
+			<div>We make cloud infrastructure easy.</div>
+			<a class="underline" href="mailto:contact@cloudblocks.dev"
+				>contact@cloudblocks.dev</a
+			>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+	}
+</style>
